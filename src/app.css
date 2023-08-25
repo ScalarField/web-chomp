@@ -1,0 +1,56 @@
+/*
+  CSS reset from
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Page styles */
+
+:root {
+  --bg-color: #333;
+  --bg-color-2: #555;
+  --bg-color-3: #222;
+  --text-color-light: #eee;
+  --text-color-dark: #222;
+  --primary-1: hsl(200deg, 50%, 60%);
+  --primary-2: hsl(200deg, 55%, 40%);
+  --primary-3: hsl(200deg, 45%, 80%);
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color-light);
+}
+
+.pointer {
+  cursor: pointer; 
+}
+
+.input-accent {
+  accent-color: var(--primary-2); 
+}
